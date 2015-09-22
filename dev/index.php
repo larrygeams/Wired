@@ -104,6 +104,7 @@
                     <!--/ #introduction -->            
                      
 
+
                     <?php              
                     include "components/get-started.html";       
                     include "components/grid.html";      
@@ -120,9 +121,6 @@
                     include "components/helpers.html";               
                     ?>              
 
-                     
-
-          
                                
                 </div>      
                 <div class="col-sm-3 hidden-xs"> 

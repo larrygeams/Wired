@@ -2785,11 +2785,48 @@ fieldset[disabled] .form-control {
 		padding: 10px;
 		width: 120px;
 	}
-	&.tooltip-primary{ background-color: $color-primary; }
-	&.tooltip-success{ background-color: $color-success; }
-	&.tooltip-complete{ background-color: $color-complete; }
-	&.tooltip-warning{ background-color: $color-warning; }
-	&.tooltip-danger{ background-color: $color-danger; }
+
+}
+
+
+.tooltip-primary + .tooltip {
+	> .tooltip-inner{ background-color: $color-primary; }
+	&.left > .tooltip-arrow{ border-left-color: $color-primary !important; }
+	&.top > .tooltip-arrow{ border-top-color: $color-primary !important; }
+	&.bottom > .tooltip-arrow{ border-bottom-color: $color-primary !important; }
+	&.right > .tooltip-arrow{ border-right-color: $color-primary !important; }
+}
+
+.tooltip-success + .tooltip {
+	> .tooltip-inner{ background-color: $color-success; }
+	&.left > .tooltip-arrow{ border-left-color: $color-success !important; }
+	&.top > .tooltip-arrow{ border-top-color: $color-success !important; }
+	&.bottom > .tooltip-arrow{ border-bottom-color: $color-success !important; }
+	&.right > .tooltip-arrow{ border-right-color: $color-success !important; }
+}
+
+.tooltip-complete + .tooltip {
+	> .tooltip-inner{ background-color: $color-complete; }
+	&.left > .tooltip-arrow{ border-left-color: $color-complete !important; }
+	&.top > .tooltip-arrow{ border-top-color: $color-complete !important; }
+	&.bottom > .tooltip-arrow{ border-bottom-color: $color-complete !important; }
+	&.right > .tooltip-arrow{ border-right-color: $color-complete !important; }
+}
+
+.tooltip-warning + .tooltip {
+	> .tooltip-inner{ background-color: $color-warning; }
+	&.left > .tooltip-arrow{ border-left-color: $color-warning !important; }
+	&.top > .tooltip-arrow{ border-top-color: $color-warning !important; }
+	&.bottom > .tooltip-arrow{ border-bottom-color: $color-warning !important; }
+	&.right > .tooltip-arrow{ border-right-color: $color-warning !important; }
+}
+
+.tooltip-danger + .tooltip {
+	> .tooltip-inner{ background-color: $color-danger; }
+	&.left > .tooltip-arrow{ border-left-color: $color-danger !important; }
+	&.top > .tooltip-arrow{ border-top-color: $color-danger !important; }
+	&.bottom > .tooltip-arrow{ border-bottom-color: $color-danger !important; }
+	&.right > .tooltip-arrow{ border-right-color: $color-danger !important; }
 }
 
 
