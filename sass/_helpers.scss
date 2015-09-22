@@ -2785,6 +2785,11 @@ fieldset[disabled] .form-control {
 		padding: 10px;
 		width: 120px;
 	}
+	&.tooltip-primary{ background-color: $color-primary; }
+	&.tooltip-success{ background-color: $color-success; }
+	&.tooltip-complete{ background-color: $color-complete; }
+	&.tooltip-warning{ background-color: $color-warning; }
+	&.tooltip-danger{ background-color: $color-danger; }
 }
 
 
