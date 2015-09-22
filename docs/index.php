@@ -114,7 +114,8 @@
                     include "components/dropdowns.html";                
                     include "components/progress-bars.html";        
                     include "components/tabs.html";           
-                    include "components/notifications.html";           
+                    include "components/notifications.html";
+                    include "components/tooltip.html";           
                     include "components/forms.html";   
                     include "components/helpers.html";               
                     ?>              
@@ -137,7 +138,12 @@
                             <li><a class="target fs-13 block" href="#progress">Progress</a></li>   
                             <li><a class="target fs-13 block" href="#dropdowns">Dropdowns</a></li>
                             <li><a class="target fs-13 block" href="#tabs">Tabs</a></li>
+<<<<<<< HEAD
                             <li><a class="target fs-13 block" href="#notification">Notification</a></li>  
+=======
+                            <li><a class="target fs-13 block" href="#notification">Notification</a></li>
+                            <li><a class="target fs-13 block" href="#tooltip">Tooltip</a></li>
+>>>>>>> develop
                             <li><a class="target fs-13 block" href="#forms">Forms</a> 
                                <ul class="nav menu">   
                                     <li><a class="target fs-13 block" href="#form-controls">Form Controls</a></li>
