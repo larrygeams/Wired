@@ -3269,6 +3269,81 @@ fieldset[disabled] .form-control {
   padding: 10px;
   width: 120px; }
 
+.tooltip-primary + .tooltip > .tooltip-inner {
+  background-color: #5F68A7; }
+
+.tooltip-primary + .tooltip.left > .tooltip-arrow {
+  border-left-color: #5F68A7 !important; }
+
+.tooltip-primary + .tooltip.top > .tooltip-arrow {
+  border-top-color: #5F68A7 !important; }
+
+.tooltip-primary + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #5F68A7 !important; }
+
+.tooltip-primary + .tooltip.right > .tooltip-arrow {
+  border-right-color: #5F68A7 !important; }
+
+.tooltip-success + .tooltip > .tooltip-inner {
+  background-color: #2ecc71; }
+
+.tooltip-success + .tooltip.left > .tooltip-arrow {
+  border-left-color: #2ecc71 !important; }
+
+.tooltip-success + .tooltip.top > .tooltip-arrow {
+  border-top-color: #2ecc71 !important; }
+
+.tooltip-success + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #2ecc71 !important; }
+
+.tooltip-success + .tooltip.right > .tooltip-arrow {
+  border-right-color: #2ecc71 !important; }
+
+.tooltip-complete + .tooltip > .tooltip-inner {
+  background-color: #48b0f7; }
+
+.tooltip-complete + .tooltip.left > .tooltip-arrow {
+  border-left-color: #48b0f7 !important; }
+
+.tooltip-complete + .tooltip.top > .tooltip-arrow {
+  border-top-color: #48b0f7 !important; }
+
+.tooltip-complete + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #48b0f7 !important; }
+
+.tooltip-complete + .tooltip.right > .tooltip-arrow {
+  border-right-color: #48b0f7 !important; }
+
+.tooltip-warning + .tooltip > .tooltip-inner {
+  background-color: #f8d053; }
+
+.tooltip-warning + .tooltip.left > .tooltip-arrow {
+  border-left-color: #f8d053 !important; }
+
+.tooltip-warning + .tooltip.top > .tooltip-arrow {
+  border-top-color: #f8d053 !important; }
+
+.tooltip-warning + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #f8d053 !important; }
+
+.tooltip-warning + .tooltip.right > .tooltip-arrow {
+  border-right-color: #f8d053 !important; }
+
+.tooltip-danger + .tooltip > .tooltip-inner {
+  background-color: #f55753; }
+
+.tooltip-danger + .tooltip.left > .tooltip-arrow {
+  border-left-color: #f55753 !important; }
+
+.tooltip-danger + .tooltip.top > .tooltip-arrow {
+  border-top-color: #f55753 !important; }
+
+.tooltip-danger + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #f55753 !important; }
+
+.tooltip-danger + .tooltip.right > .tooltip-arrow {
+  border-right-color: #f55753 !important; }
+
 
 .dropdown-menu {
   border: 1px solid #E6E6E6;
